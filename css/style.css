@@ -1,0 +1,66 @@
+body {
+    background: #FFF;
+}
+@font-face {
+    font-family: Cyrulik Rounded;
+    src: url('/font/cyrulik-rounded-regular.otf');
+}
+header {
+    max-height: 99px;
+}
+header h1, header h3 {
+    font-family: Cyrulik Rounded;
+    margin: 0;
+}
+header a {
+    color: #FFF;
+}
+header a:hover {
+    color: #707070;
+}
+header a.nav-link.custom {
+    text-transform: uppercase;
+}
+header ul.navbar-nav.ml-auto {
+    margin-right: 3vw;
+}
+header ul li .fa-twitter {
+    padding: 0 16px;
+}
+header ul.link-list li {
+    padding: 0 14px;
+}
+section.section1 {
+    background-color: #5969F6;
+}
+section .img-bg {
+    margin-top: -100px;
+    height: 670px;
+    background-color: #5969F6;
+    background-image: url(/img/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: -19vw -19vh;
+    background-clip: border-box;
+    background-size: cover;
+} 
+section .container.c1 div.col-lg-5.offset-lg-1 {
+    margin-top: 250px;
+}
+.btn-start {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px 75px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background: #6BC1FF;
+    border: 1px solid #6BC1FF;
+}
+.btn-start.btn-port {
+    padding: 10px 46px;
+    background: transparent;
+    border: 1px solid #FFF;
+}
