@@ -5,24 +5,45 @@ body {
     font-family: Cyrulik Rounded;
     src: url('/font/cyrulik-rounded-regular.otf');
 }
+h1, h2, h3 {
+    font-family: 'Segoe UI', sans-serif;
+}
+h1 {
+    font-size: 55px;
+}
 header {
     max-height: 99px;
 }
+header .col-lg-10.offset-lg-1 {
+    display: contents;
+}
+header .navbar-light.fixed-top {
+    background: #5969F6;
+}
+/* @media (min-width: 768px) {
+    header .navbar-expand-md .navbar-collapse {
+        display: -moz-inline-box!important;
+        display: -webkit-inline-box!important;
+    }
+} */
 header h1, header h3 {
     font-family: Cyrulik Rounded;
     margin: 0;
 }
 header a {
-    color: #FFF;
+    color: #FFF!important;
 }
 header a:hover {
-    color: #707070;
+    color: #707070!important;
 }
 header a.nav-link.custom {
     text-transform: uppercase;
 }
 header ul.navbar-nav.ml-auto {
     margin-right: 3vw;
+}
+header ul.nav-social {
+    flex-direction: inherit;
 }
 header ul li .fa-twitter {
     padding: 0 16px;
@@ -34,7 +55,7 @@ section.section1 {
     background-color: #5969F6;
 }
 section .img-bg {
-    margin-top: -100px;
+    /* margin-top: -100px; */
     height: 670px;
     background-color: #5969F6;
     background-image: url(/img/bg.png);
@@ -59,8 +80,36 @@ section .container.c1 div.col-lg-5.offset-lg-1 {
     background: #6BC1FF;
     border: 1px solid #6BC1FF;
 }
+.btn-start:hover {
+    color: #353f93;
+    text-decoration: none;
+    border: 1px solid #353f93;
+}
 .btn-start.btn-port {
     padding: 10px 46px;
     background: transparent;
     border: 1px solid #FFF;
+}
+.btn-start.btn-port:hover {
+    border: 1px solid #353f93;
+}
+.mtop-2 {
+    margin-top: -2rem!important;
+}
+.mtop-4 {
+    margin-top: -4rem!important;
+}
+.mtop-10 {
+    margin-top: -10rem!important;
+}
+section.section2 hr {
+    width: 40%;
+    border: 5px solid #5969F6;
+    border-radius: 5px;
+}
+.hr-right {
+    margin-right: inherit;
+}
+.hr-left {
+    margin-left: 0;
 }
