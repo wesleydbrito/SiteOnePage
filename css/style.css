@@ -1,12 +1,11 @@
 body {
     background: #FFF;
+    font-family: 'Segoe UI', sans-serif;
+    overflow-x: hidden;
 }
 @font-face {
     font-family: Cyrulik Rounded;
     src: url('/font/cyrulik-rounded-regular.otf');
-}
-h1, h2, h3 {
-    font-family: 'Segoe UI', sans-serif;
 }
 h1 {
     font-size: 55px;
@@ -14,11 +13,15 @@ h1 {
 header {
     max-height: 99px;
 }
-header .col-lg-10.offset-lg-1 {
+/* header .col-lg-10.offset-lg-1 {
     display: contents;
-}
-header .navbar-light.fixed-top {
+} */
+.bluedefault {
     background: #5969F6;
+}
+header a.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 /* @media (min-width: 768px) {
     header .navbar-expand-md .navbar-collapse {
@@ -45,6 +48,10 @@ header ul.navbar-nav.ml-auto {
 header ul.nav-social {
     flex-direction: inherit;
 }
+header .navbar-collapse.collapse.show ul.nav-social {
+    margin-top: 1rem;
+    margin-bottom: 8px;
+}
 header ul li .fa-twitter {
     padding: 0 16px;
 }
@@ -69,7 +76,6 @@ section .container.c1 div.col-lg-5.offset-lg-1 {
     margin-top: 250px;
 }
 .btn-start {
-    font-family: 'Segoe UI', sans-serif;
     font-weight: 700;
     color: #FFF;
     font-size: 20px;
@@ -102,6 +108,13 @@ section .container.c1 div.col-lg-5.offset-lg-1 {
 .mtop-10 {
     margin-top: -10rem!important;
 }
+section.section-padding {
+    padding-top: 130px!important;
+}
+
+section.section2 .start{
+    padding-top: 99px;
+}
 section.section2 hr {
     width: 40%;
     border: 5px solid #5969F6;
@@ -112,4 +125,48 @@ section.section2 hr {
 }
 .hr-left {
     margin-left: 0;
+}
+div.col-8.balao.bg-white {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.owl-carousel .owl-item img {
+    max-height: 70px;
+    max-width: 90px;
+    padding: 0 10px 10px 20px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 25px!important;
+}
+.balao {
+	background: #FFF;
+	border-radius: 15px;
+    position: relative;
+}
+.balao:after {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 50px solid transparent;
+	/* border-right: 50px solid transparent; */
+	border-top: 50px solid #FFF;
+	left: -48px;
+	top: 20%;
+}
+.balao h3, h4 {
+    margin: 0;
+}
+.balao h3 {
+    font-size: 1.6rem;
+}
+.balao h4 {
+    font-size: 1.15rem;
+    color: #5969F6;
+}
+.balao p {
+    margin-top: 8px;
+}
+.balao i {
+    color:#6BC1FF;
 }
