@@ -120,6 +120,9 @@ section.section2 hr {
     border: 5px solid #5969F6;
     border-radius: 5px;
 }
+section.section4.section-padding {
+    padding-bottom: 99px;
+}
 .hr-right {
     margin-right: inherit;
 }
@@ -169,4 +172,39 @@ div.col-8.balao.bg-white {
 }
 .balao i {
     color:#6BC1FF;
+}
+/* ------------------ */
+input#inputName::-webkit-input-placeholder,
+input#inputEmail::-webkit-input-placeholder,
+input#inputSubject::-webkit-input-placeholder,
+textarea.form-control::-webkit-input-placeholder {
+    color: #6BC1FF;
+ }
+ 
+ input#inputName:-moz-placeholder,
+ input#inputEmail:-moz-placeholder,
+ input#inputSubject:-moz-placeholder,
+ textarea.form-control:-moz-placeholder { /* Firefox 18- */
+    color: #6BC1FF;  
+ }
+ 
+ input#inputName::-moz-placeholder,
+ input#inputEmail::-moz-placeholder,
+ input#inputSubject::-moz-placeholder,
+ textarea.form-control::-moz-placeholder {  /* Firefox 19+ */
+    color: #6BC1FF;  
+ }
+ 
+ input#inputName:-ms-input-placeholder,
+ input#inputEmail:-ms-input-placeholder,  
+ input#inputSubject:-ms-input-placeholder,
+ textarea.form-control:-ms-input-placeholder {  
+    color: #6BC1FF;  
+ }
+
+img.send  {
+    position: relative;
+    float: right;
+    top: -90px;
+    left: 35px;
 }
